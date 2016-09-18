@@ -48,13 +48,13 @@
 * 数据库应用优化技能
 * 常见数据库系统故障分析方法
 
-** 以Oracle数据库为例，包括但不限于如下文档：**
-Oracle Database Administrator's Guide 11g Release 2
-Oracle Database Concepts 11g Release 2 (11.2)
-Oracle Database Performance Tuning Guide 11g Release 2 (11.2)
-Oracle Database SQL Language Reference 11g Release 2 (11.2)
-SQL*Plus User's Guide and Reference Release 11.2
-Oracle Database VLDB and Partitioning Guide 11g Release 2 (11.2)
+以Oracle数据库为例，包括但不限于如下文档：
+* Oracle Database Administrator's Guide 11g Release 2
+* Oracle Database Concepts 11g Release 2 (11.2)
+* Oracle Database Performance Tuning Guide 11g Release 2 (11.2)
+* Oracle Database SQL Language Reference 11g Release 2 (11.2)
+* SQL*Plus User's Guide and Reference Release 11.2
+* Oracle Database VLDB and Partitioning Guide 11g Release 2 (11.2)
 
 ## 3.一般要求
 良好的数据库结构设计在满足功能需求外，还应满足非功能需求，体现在系统的可维护性、扩展性，保证数据质量，消除系统性能瓶颈。
