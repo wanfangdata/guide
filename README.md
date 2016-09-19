@@ -22,6 +22,7 @@
 
 ## 前端开发规范
 ## 测试规范
+* [产品项目测试规范](https://github.com/wanfangdata/guide/blob/master/%E6%B5%8B%E8%AF%95%E8%A7%84%E8%8C%83/%E4%BA%A7%E5%93%81%E9%A1%B9%E7%9B%AE%E6%B5%8B%E8%AF%95%E5%B7%A5%E4%BD%9C%E8%A7%84%E8%8C%83.md) 
 
 
 
