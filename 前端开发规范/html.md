@@ -44,7 +44,7 @@
 ```html
 <meta charset="utf-8" />
 ```
-#### IE兼容
+#### IE兼容模式
 使用最高版本的IE内核进行渲染。
 ```html
 <meta http-equiv="x-ua-compatible" content="ie=edge">
