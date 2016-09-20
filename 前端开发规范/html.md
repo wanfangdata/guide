@@ -14,6 +14,7 @@
 * [语义化](#语义化)
 * [布尔型属性](#布尔型属性)
 * [自定义属性](#自定义属性)
+* [TODO](#todo)
 
 [文档模板](#文档模板)
 
@@ -169,6 +170,15 @@
         <script src="global.js"></script>
     </body>
 </html>
+```
+#### TODO
+使用 TODO 来标记待做事情，便于后期搜索.
+```html
+<!-- TODO: remove optional tags -->
+<ul>
+  <li>Apples</li>
+  <li>Oranges</li>
+</ul>
 ```
 ## 参考文档
 [https://google.github.io/styleguide/htmlcssguide.xml](https://google.github.io/styleguide/htmlcssguide.xml)
