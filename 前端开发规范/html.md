@@ -165,14 +165,14 @@
         <link rel="stylesheet" href="global.css" />
     </head>
     <body>
-        <div clss="page">
-            <div clss="header">
+        <div class="page">
+            <div class="header">
                 页头
             </div>
-            <div clss="content">
+            <div class="content">
                 主体
             </div>
-            <div clss="footer">
+            <div class="footer">
                 页尾
             </div>
         </div>
