@@ -4,7 +4,7 @@
 * [DOCTYPE](#doctype)
 * [协议](#协议)
 * [页面编码](#页面编码)
-* [IE兼容模式](#兼容模式)
+* [IE兼容模式](#IE兼容模式)
 * [关注点分离](#关注点分离)
 * [注释](#注释)
 * [缩进](#缩进)
@@ -44,7 +44,7 @@
 ```html
 <meta charset="utf-8" />
 ```
-#### IE兼容
+#### IE兼容模式
 使用最高版本的IE内核进行渲染。
 ```html
 <meta http-equiv="x-ua-compatible" content="ie=edge">
