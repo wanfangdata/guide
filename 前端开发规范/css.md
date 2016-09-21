@@ -12,11 +12,11 @@
 * [分号](#分号)
 * [关于font-weight](#关于font-weight)
 
-[CSS Reset](#cssreset)
+[CSS-Reset](#css-reset)
 
 [参考文档](#参考文档)
 ## CSS校验
-除了 css hack 和浏览器私有属性， 推荐使用 [w3c css validator](http://jigsaw.w3.org/css-validator) 校验其余的代码.
+除了 css hack 和浏览器私有属性，推荐使用 [w3c css validator](http://jigsaw.w3.org/css-validator) 校验其余的代码。
 
 ## 基本规范
 
@@ -44,7 +44,7 @@
 .effect {}
 .alt {}
 ```
-id 和 class 的命名长度应该适中，不要太简略也不要太详细
+id 和 class 的命名长度应该适中，不要太简略也不要太详细。
 ```css
 /* 不推荐 */
 #navigation {}
@@ -59,13 +59,11 @@ id 和 class 的命名长度应该适中，不要太简略也不要太详细
 由于[性能原因](http://www.stevesouders.com/blog/2009/06/18/simplifying-css-selectors/)， 避免元素选择器和类选择器以及 id 选择器混用。
 ```css
 /* 不推荐 */
-#navigation {}
-.atr {}
+div#nav {}
 ```
 ```css
 /* 推荐 */
 #nav {}
-.author {}
 ```
 #### 属性声明顺序
 按照字母顺序声明属性，排序时忽略私有的浏览器前缀，对于特定的浏览器，私有的浏览器前缀应该参与排序。
@@ -94,7 +92,7 @@ text-indent: 2em;
 }
 ```
 #### 属性简写
-为了提高可读性，尽可能的使用简写属性
+为了提高可读性，尽可能的使用简写属性。
 ```css
 /* 不推荐 */
 border-top-style: none;
@@ -123,7 +121,7 @@ padding: 0;
 font-size: .8em;
 ```
 #### 16进制的颜色值表示
-对属性值为 0 的情况省略单位。
+尽可能使用 3 个字符的 16 进制颜色值。
 ```css
 /* 不推荐 */
 color: #aabbcc;
@@ -149,7 +147,7 @@ color: #abc;
 }
 ```
 #### 关于font-weight
-避免使用bolder、lighter这类相对量或浏览器的默认样式。
+避免使用相对量或浏览器的默认样式。
 ```css
 /* 不推荐 */
 .content { font-weight: blod; }
@@ -158,7 +156,7 @@ color: #abc;
 /* 推荐 */
 .content { font-weight: 700; }
 ```
-#### CSS Reset
+#### CSS-Reset
 避免使用bolder、lighter这类相对量或浏览器的默认样式。
 ```css
 @charset "utf-8";
