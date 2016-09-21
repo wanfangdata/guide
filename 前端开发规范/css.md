@@ -11,6 +11,7 @@
 * [16进制的颜色值表示](#16进制的颜色值表示)
 * [分号](#分号)
 * [关于font-weight](#关于font-weight)
+* [关于import](#关于import)
 
 [CSS-Reset](#css-reset)
 
@@ -156,6 +157,9 @@ color: #abc;
 /* 推荐 */
 .content { font-weight: 700; }
 ```
+#### 关于import
+避免在CSS文件中使用`@import`指令，`@import`指令会增加额外的请求次数，还会导致不可预料的问题，
+与`<link>`标签相比，`@import` 指令要慢很多。
 #### CSS-Reset
 避免使用bolder、lighter这类相对量或浏览器的默认样式。
 ```css
