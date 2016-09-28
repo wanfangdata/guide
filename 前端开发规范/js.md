@@ -13,7 +13,7 @@
 * [Array和Object直接量](#Array和Object直接量)
 * [修改内置对象的原型](#修改内置对象的原型)
 
-[JavaScript编码风格](#javaScript编码风格)
+[JavaScript编码风格](#javascript编码风格)
 * [命名](#命名)
   * [通用命名](#通用命名)
 
