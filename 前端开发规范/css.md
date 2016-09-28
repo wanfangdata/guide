@@ -37,8 +37,8 @@
 ```
 ```css
 /* 推荐: 具体 */
-#gallery {}
-#login {}
+.gallery {}
+.login {}
 .video {}
 
 /* 推荐: 通用 */
@@ -48,12 +48,12 @@
 id 和 class 的命名长度应该适中，不要太简略也不要太详细。
 ```css
 /* 不推荐 */
-#navigation {}
+.navigation {}
 .atr {}
 ```
 ```css
 /* 推荐 */
-#nav {}
+.nav {}
 .author {}
 ```
 #### 元素选择器
@@ -64,7 +64,7 @@ div#nav {}
 ```
 ```css
 /* 推荐 */
-#nav {}
+.nav {}
 ```
 #### 属性声明顺序
 按照字母顺序声明属性，排序时忽略私有的浏览器前缀，对于特定的浏览器，私有的浏览器前缀应该参与排序。
@@ -160,8 +160,7 @@ color: #abc;
 #### 关于import
 避免在CSS文件中使用`@import`指令，`@import`指令会增加额外的请求次数，还会导致不可预料的问题，
 与`<link>`标签相比，`@import` 指令要慢很多。
-#### CSS-Reset
-避免使用bolder、lighter这类相对量或浏览器的默认样式。
+### CSS-Reset
 ```css
 @charset "utf-8";
 body, h1, h2 , h3, h4, h5, h6, dl, dt, dd, ul, li, th, td, p, button, input, select, textarea { margin: 0; padding: 0; }
