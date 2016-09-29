@@ -91,7 +91,7 @@ cmdkey /add:172.10.0.6 /user: vmadmin /pass
 
 #### 2.2.3 远程Windows 8
 
-1.  DNS 解析，编辑C:\Windows\System32\drivers\etc\hosts
+1.DNS 解析，编辑C:\Windows\System32\drivers\etc\hosts
 
 ```java
 # localhost name resolution is handled within DNS itself.
@@ -100,22 +100,23 @@ cmdkey /add:172.10.0.6 /user: vmadmin /pass
 172.10.0.5 vm-node1
 172.10.0.6 vm-node2
 ```
-
-2.  创建虚拟管理的本地账户，若用 administrator 管理不需要创建
-
+2.创建虚拟管理的本地账户，若用 administrator 管理不需要创建
 ```java
 net user vmadmin password@00 /add
 net localgroup administrators "vmadmin" /add
 ```
-3.  授权用户
+3.授权用户
 ```java
 cmdkey /add:172.10.0.5 /user: vmadmin /pass
 cmdkey /add:172.10.0.6 /user: vmadmin /pass
 ```
-4.  在组件服务中，选择计算机，我的电脑，右键属性，设置“编辑限制”
-5.  将 ANONYMOUS Logon 允许 “远程访问”
-6.  重启本机
-7.  在 Hyper-V 管理器，选择“连接到服务器”。来连接远程的 Hyper-V 主机。
+4.在组件服务中，选择计算机，我的电脑，右键属性，设置“编辑限制”
+
+5.将 ANONYMOUS Logon 允许 “远程访问”
+
+6.重启本机
+
+7.在 Hyper-V 管理器，选择“连接到服务器”。来连接远程的 Hyper-V 主机。
 
 
 
