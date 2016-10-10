@@ -97,6 +97,7 @@
  ![Image of 14](./image/14.png)
 
 2. 增加本地管理员账号vmadmin
+
  ![Image of 15](./image/15.png)
 
 #### 2.2.2 远程Windows 2012
