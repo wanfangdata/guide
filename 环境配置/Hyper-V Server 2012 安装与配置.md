@@ -151,7 +151,11 @@ cmdkey /add:172.10.0.6 /user: vmadmin /pass
 ```
 5.在组件服务中，选择计算机，我的电脑，右键属性，设置“编辑限制”
 
+  ![Image of 16](./image/16.png)
+
 6.将 ANONYMOUS Logon 允许 “远程访问”
+
+  ![Image of 17](./image/17.png)
 
 7.重启本机
 
