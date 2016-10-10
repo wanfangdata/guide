@@ -140,18 +140,22 @@ cmdkey /add:172.10.0.6 /user: vmadmin /pass
 net user vmadmin password@00 /add
 net localgroup administrators "vmadmin" /add
 ```
-3.授权用户
+3.配置 TrustedHosts
+```java
+winrm set winrm/config/client @{TrustedHosts="vm-node1,vm-node2"}
+```
+4.授权用户
 ```java
 cmdkey /add:172.10.0.5 /user: vmadmin /pass
 cmdkey /add:172.10.0.6 /user: vmadmin /pass
 ```
-4.在组件服务中，选择计算机，我的电脑，右键属性，设置“编辑限制”
+5.在组件服务中，选择计算机，我的电脑，右键属性，设置“编辑限制”
 
-5.将 ANONYMOUS Logon 允许 “远程访问”
+6.将 ANONYMOUS Logon 允许 “远程访问”
 
-6.重启本机
+7.重启本机
 
-7.在 Hyper-V 管理器，选择“连接到服务器”。来连接远程的 Hyper-V 主机。
+8.在 Hyper-V 管理器，选择“连接到服务器”。来连接远程的 Hyper-V 主机。
 
 
 
