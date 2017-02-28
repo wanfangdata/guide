@@ -5,7 +5,7 @@
 ### 集成开发环境
 - VisualStudio
 - Nuget
-- Eclipse
+- Intellj Idea/Eclipse
 - Maven
 - PhotoShop
 
