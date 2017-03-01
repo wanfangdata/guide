@@ -15,7 +15,8 @@
 ### .net开发环境
 ### [.net编码规范](https://github.com/wanfangdata/guide/blob/master/dotnet开发规范/编码规范.md)
 ## java开发规范
-### 开发环境
+### [工具](https://github.com/wanfangdata/guide/blob/master/java开发规范/工具.md)
+### [技术栈](https://github.com/wanfangdata/guide/blob/master/java开发规范/技术栈.md)
 ### 编码规范
 * [java编码规范](https://github.com/wanfangdata/guide/blob/master/java%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.md) 
 * MAVEN使用规范
