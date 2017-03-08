@@ -20,6 +20,7 @@
 ### 编码规范
 * [java编码规范](https://github.com/wanfangdata/guide/blob/master/java%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83/%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83.md) 
 * MAVEN使用规范
+* [java项目参考模板](https://github.com/wfjava-team/java-project-templete/releases) (主要供自有产品开发的项目参考)
 
 ## [前端开发规范](前端开发规范)
 ## 测试规范
